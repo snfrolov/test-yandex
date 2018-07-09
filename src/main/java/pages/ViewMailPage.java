@@ -21,21 +21,14 @@ import ru.alfabank.alfatest.cucumber.annotations.Name;
 import ru.alfabank.alfatest.cucumber.annotations.Optional;
 import ru.alfabank.alfatest.cucumber.api.AkitaPage;
 
-import java.util.List;
+@Name("Просмотр письма")
+public class ViewMailPage extends AkitaPage {
 
-@Name("Яндекс.Почта")
-public class YandexMailPage extends AkitaPage {
+    @FindBy(css = ".js-subject-content")
+    @Name("Тема")
+    private SelenideElement theme;
 
-    @FindBy(xpath = "//span[@class='mail-ComposeButton-Text']")
-    @Name("Написать")
-    private SelenideElement writeButton;
-
-    @FindBy(xpath = "//span[text()='Общение']")
-    @Name("Общение")
-    private SelenideElement communication;
-
-    @Optional
-    @FindBy(xpath = "//span[contains(@class,'js-message-snippet-subject')]//span[@title]")
-    @Name("Темы писем")
-    private List<SelenideElement> themeList;
+    @FindBy(xpath = "//div[@class='mail-Message-Body-Content']/div")
+    @Name("Текст письма")
+    private SelenideElement letterMessage;
 }

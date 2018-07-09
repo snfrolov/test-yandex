@@ -24,6 +24,10 @@ import ru.alfabank.alfatest.cucumber.api.AkitaPage;
 @Name("Создание письма")
 public class SentMailPage extends AkitaPage {
 
+    @FindBy(xpath = "//span[text()='Входящие']")
+    @Name("Входящие")
+    private SelenideElement inputMail;
+
     @FindBy(xpath = "//span[text()='Себе']")
     @Name("Себе")
     private SelenideElement toMeButton;

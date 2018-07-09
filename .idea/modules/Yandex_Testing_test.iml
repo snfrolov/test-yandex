@@ -3,9 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../build/cucumber-parallel-test/generated/src/test/java">
-      <sourceFolder url="file://$MODULE_DIR$/../../build/cucumber-parallel-test/generated/src/test/java" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../build/cucumber-parallel-test/generated/src/test/java" />
     <content url="file://$MODULE_DIR$/../../src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
     </content>
