@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4167fdc0-6b13-437c-8416-1143ea2fbe65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/YandexMailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/YandexMailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Проверка Яндекс.почты.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Проверка Яндекс.почты.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Проверка Яндекс.почты.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Проверка Яндекс.почты.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Проверка Яндекс.почты.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="506">
+              <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -84,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YandexMailPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="YandexMailPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/YandexMailPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state relative-caret-position="390">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +147,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>страни</find>
+      <find>Количество избранных писем</find>
+      <find>Флаги добавления в избранное</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1058,26 +1059,11 @@
       <option name="presentableId" value="Default" />
       <updated>1531156542115</updated>
       <workItem from="1531156544002" duration="5821000" />
-      <workItem from="1531167197525" duration="2700000" />
+      <workItem from="1531167197525" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 21h 55m 18s.xml">
-      <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 21h 55m 56s.xml">
-      <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 21h 56m 22s.xml">
-      <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 21h 57m 07s.xml">
-      <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 21h 58m 02s.xml">
-      <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 23h 33m 00s.xml">
       <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -1093,9 +1079,24 @@
     <history-entry file="Feature__Проверка_Яндекс_почты - 2018.07.09 at 23h 42m 44s.xml">
       <configuration name="Feature: Проверка Яндекс.почты" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Добавление_в_избранное - 2018.07.10 at 00h 04m 48s.xml">
+      <configuration name="Scenario: Добавление в избранное" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Добавление_в_избранное - 2018.07.10 at 00h 05m 19s.xml">
+      <configuration name="Scenario: Добавление в избранное" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Добавление_в_избранное - 2018.07.10 at 00h 05m 48s.xml">
+      <configuration name="Scenario: Добавление в избранное" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Добавление_в_избранное - 2018.07.10 at 00h 12m 59s.xml">
+      <configuration name="Scenario: Добавление в избранное" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Добавление_в_избранное - 2018.07.10 at 00h 13m 40s.xml">
+      <configuration name="Scenario: Добавление в избранное" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8521000" />
+    <option name="totallyTimeSpent" value="9105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -1120,18 +1121,18 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1311,20 +1312,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/YandexMailPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Проверка Яндекс.почты.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Проверка Яндекс.почты.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/YandexMailPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="390">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
