@@ -1,5 +1,9 @@
-.gradle
-/build/
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
+out
+.idea/
+build/
+.gradle/
+src/main/main.iml
+.DS_Store
