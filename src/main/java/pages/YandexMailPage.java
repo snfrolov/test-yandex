@@ -34,6 +34,14 @@ public class YandexMailPage extends AkitaPage {
     @Name("Общение")
     private SelenideElement communication;
 
+    @FindBy(xpath = "//span[@class='mail-LabelList-Item_count']")
+    @Name("Количество избранных писем")
+    private SelenideElement favoriteMailCounter;
+
+    @FindBy(xpath = "//span[contains(@class,'js-message-snippet-importance')]")
+    @Name("Флаги добавления в избранное")
+    private List<SelenideElement> favoriteFlagList;
+
     @Optional
     @FindBy(xpath = "//span[contains(@class,'js-message-snippet-subject')]//span[@title]")
     @Name("Темы писем")
