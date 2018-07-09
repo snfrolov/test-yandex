@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.alfabank.tests:akita:3.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.alfabank.tests/akita/3.3.1/de58fa4c37ddb281edef0b2fc4632e9be4506022/akita-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.alfabank.tests/akita/3.3.1/9366479faf559f1314562fec2db67ca24ee592b9/akita-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
